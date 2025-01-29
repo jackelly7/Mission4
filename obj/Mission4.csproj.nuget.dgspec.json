@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jackkelly/RiderProjects/Mission4/Mission4.csproj": {}
+    "/Users/ethanhudgins/RiderProjects/Mission4/Mission4.csproj": {}
   },
   "projects": {
-    "/Users/jackkelly/RiderProjects/Mission4/Mission4.csproj": {
+    "/Users/ethanhudgins/RiderProjects/Mission4/Mission4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jackkelly/RiderProjects/Mission4/Mission4.csproj",
+        "projectUniqueName": "/Users/ethanhudgins/RiderProjects/Mission4/Mission4.csproj",
         "projectName": "Mission4",
-        "projectPath": "/Users/jackkelly/RiderProjects/Mission4/Mission4.csproj",
-        "packagesPath": "/Users/jackkelly/.nuget/packages/",
-        "outputPath": "/Users/jackkelly/RiderProjects/Mission4/obj/",
+        "projectPath": "/Users/ethanhudgins/RiderProjects/Mission4/Mission4.csproj",
+        "packagesPath": "/Users/ethanhudgins/.nuget/packages/",
+        "outputPath": "/Users/ethanhudgins/RiderProjects/Mission4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jackkelly/.nuget/NuGet/NuGet.Config"
+          "/Users/ethanhudgins/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/ethanhudgins/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
