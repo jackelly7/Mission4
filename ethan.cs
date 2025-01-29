@@ -14,7 +14,7 @@ namespace mission4
                 if (row < 2) Console.WriteLine("---+---+---");
             }
         }
-        public string checkWinner(char[,] board)
+        public string checkWinner(string[,] board)
         {
             for (int i = 0; i < 3; i++)
             {

@@ -1,4 +1,6 @@
-﻿using Mission4;
+﻿using mission4;
+
+boardGame b1 = new boardGame();
 
 string[,] board = {
     { "1", "2", "3" },
@@ -43,10 +45,13 @@ for (int i = 0; i < 9; i++) // Maximum 9 turns
         }
     }
 
-    b1.PrintBoard(board);
+    b1.printBoard(board);
 
-    if (b1.CheckWin(board))
+    string winner = b1.checkWinner(board);
+    
+    if (winner != null)
     {
+        b1.printBoard(board);
         Console.WriteLine($"{player} WINS!");
         return; // End game if someone wins
     }
